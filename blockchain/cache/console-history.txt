@@ -1,0 +1,24 @@
+const contractAddresses = require('./contract-addresses.json');
+}
+  });
+    endTime: new Date(Number(firstAuction.endTime) * 1000)
+    isActive: firstAuction.isActive,
+    currentHighestBid: ethers.formatEther(firstAuction.currentHighestBid),
+    basePrice: ethers.formatEther(firstAuction.basePrice),
+    quantity: firstAuction.quantity.toString(),
+    crop: firstAuction.crop,
+    farmer: firstAuction.farmer,
+  console.log('First auction:', {
+  const firstAuction = await auction.auctions(0);
+if (auctionCount > 0) {
+one
+// If there are auctions, check the first 
+console.log('T
+const auctionCount = await auction.auctionCount();
+// Check how many auctions exist
+const auction = AuctionContract.attach(contractAddresses.AuctionContract);
+// Connect to the AuctionContract
+actAddresses);
+consconsole.log('Contract addresses:', contr
+// First, get the deployed contract addresses
+.help
